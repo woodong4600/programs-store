@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Programs - 개인 개발자 소프트웨어</title>
+    <meta name="description" content="내가 개발한 다양한 Windows 프로그램을 소개하고 배포하는 사이트입니다.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 상단 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                <span id="site-name-nav">My Programs</span>
+            </a>
+            <div class="nav-links">
+                <a href="#program-section">프로그램</a>
+                <a href="#" id="github-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 영역 -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="fade-in">내가 만든 프로그램을<br>한곳에서 만나보세요.</h1>
+            <p class="fade-in delay-1">Windows에서 사용할 수 있는 다양한 개인 프로그램을 직접 개발하고 배포합니다.</p>
+            <div class="hero-btns fade-in delay-2">
+                <a href="#program-section" class="btn btn-primary">프로그램 보기</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 프로그램 섹션 -->
+    <main id="program-section" class="container section">
+        <div class="controls">
+            <!-- 검색바 -->
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="🔍 프로그램 검색...">
+            </div>
+            <!-- 카테고리 필터 -->
+            <div class="filter-group" id="category-filters">
+                <button class="filter-btn active" data-category="all">전체</button>
+                <!-- JS에서 카테고리 자동 생성 -->
+            </div>
+        </div>
+
+        <!-- 프로그램 카드 그리드 -->
+        <div id="program-grid" class="program-grid">
+            <!-- JS에서 프로그램 카드 자동 생성 -->
+        </div>
+
+        <!-- 결과 없음 메시지 -->
+        <div id="no-results" class="no-results hidden">
+            <p>검색 결과가 없습니다.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> <span id="site-author">YourName</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
