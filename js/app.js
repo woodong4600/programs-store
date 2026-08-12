@@ -15,7 +15,7 @@ const programs = [
     {
         name: "PC Optimizer",
         description: "Windows용 컴퓨터 저장공간 및 성능 관리 프로그램입니다. 컴퓨터를 쉽게 관리하세요.",
-        version: "v1.0.0",
+        version: "v1.0",
         category: "유틸리티",
         icon: "🖥️", // SVG나 이미지 경로로 변경 가능
         page: "programs/PCOptimizer.html",
@@ -25,7 +25,7 @@ const programs = [
     {
         name: "FolderBuilder",
         description: "원하는 폴더 구조를 입력하면 폴더와 파일을 자동으로 생성해주는 간편한 Windows 프로그램입니다. 프로젝트 개발을 쉽게 하세요.",
-        version: "v1.2.0",
+        version: "v1.0",
         category: "개발",
         icon: "📂",
         page: "programs/FolderBuilder.html",
@@ -35,7 +35,7 @@ const programs = [
     {
         name: "clipvault",
         description: "Windows용 스마트 클립보드 기록 관리자입니다. 복사한 텍스트와 이미지를 쉽게 관리하세요.",
-        version: "v0.9.5",
+        version: "v1.0",
         category: "유틸리티",
         icon: "📋",
         page: "programs/clipvault.html",
