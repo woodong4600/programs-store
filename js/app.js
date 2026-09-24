@@ -19,7 +19,7 @@ const programs = [
         category: "유틸리티",
         icon: "🖥️", // SVG나 이미지 경로로 변경 가능
         page: "programs/PCOptimizer.html",
-        download: "https://github.com/woodong4600/pc_optimizer/raw/refs/heads/main/PC%20Optimizer%20Setup.exe",
+        download: "https://github.com/woodong4600/pc_optimizer/raw/refs/heads/main/PCOptimizerSetup.exe",
         os: "Windows"
     },
     {
