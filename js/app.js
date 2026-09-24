@@ -49,7 +49,7 @@ const programs = [
         category: "유틸리티",
         icon: "📌",
         page: "programs/AlwaysTop.html",
-        download: "https://github.com/woodong4600/AlwaysTop/raw/refs/heads/main/AlwaysTop_Setup_x64.exe",
+        download: "https://github.com/woodong4600/AlwaysTop/raw/refs/heads/main/AlwaysTopSetup.exe",
         os: "Windows"
     },
     {
