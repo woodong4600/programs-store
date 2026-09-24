@@ -51,6 +51,16 @@ const programs = [
         page: "programs/AlwaysTop.html",
         download: "https://github.com/woodong4600/AlwaysTop/raw/refs/heads/main/AlwaysTop_Setup_x64.exe",
         os: "Windows"
+    },
+    {
+        name: "VirtualWorkspace",
+        description: "VirtualWorkspace는 자주 사용하는 PC환경을 저장하고 불러오는 프로그램​입니다.",
+        version: "v0.9.5",
+        category: "유틸리티",
+        icon: "🪟",
+        page: "programs/VirtualWorkspace.html",
+        download: "https://github.com/woodong4600/VirtualWorkspace/raw/refs/heads/main/VirtualWorkspaceSetup.exe",
+        os: "Windows"
     }
 ];
 
