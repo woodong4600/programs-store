@@ -61,6 +61,16 @@ const programs = [
         page: "programs/VirtualWorkspace.html",
         download: "https://github.com/woodong4600/VirtualWorkspace/raw/refs/heads/main/VirtualWorkspaceSetup.exe",
         os: "Windows"
+    },
+    {
+        name: "GitHub Upload",
+        description: "Git 명령어 없이 버튼 몇 번으로 파일과 폴더를 GitHub에 간편하게 업로드하세요.",
+        version: "v0.9.5",
+        category: "개발",
+        icon: "😺",
+        page: "programs/GitHubUpload.html",
+        download: "https://github.com/woodong4600/GitHubUpload/raw/refs/heads/main/GitHub%20Upload%20Setup.exe",
+        os: "Windows"
     }
 ];
 
